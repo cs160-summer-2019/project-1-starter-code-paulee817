@@ -11,5 +11,85 @@
 </head>
 <body>
 	<!-- your comparison interface here -->
+  <div class="container" style="background-color:#7399CC">
+    <div class="row">
+      <form>
+        <div class="input-group input-group-lg" style="margin:10px">
+          <div class="input-group-prepend">
+            <span class="input-group-text" style="background-color:#707070">&#128269</span>
+          </div>
+          <input type="text" class="form-control" style="background-color:#FFFFFF; width:420px" placeholder="Search ">
+        </div>
+      </form>
+    </div>
+    <div class="row">
+      <table class="table table-striped" style="margin:20px">
+        <thead>
+          <tr>
+            <th>!</th>
+            <th>City</th>
+            <th>Temp(F)</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td></td>
+            <td><a href="/weather/forecast" class="btn btn-info active" role="button">Berkeley</a></td>
+            <td>77°&nbsp&nbsp&nbsp&nbsp&nbsp<img src="/static/weather/assets/sunnycloudy.png" style="width:20px;"></td>
+          </tr>
+          <tr>
+            <td></td>
+            <td><button type="button" class="btn btn-info active">Los Angeles</button></td>
+            <td>80°&nbsp&nbsp&nbsp&nbsp&nbsp<img src="/static/weather/assets/sunny.png" style="width:20px;"></td>
+          </tr>
+          <tr>
+            <td><img src="/static/weather/assets/umbrella.png" style="width:15px;"></td>
+            <td><button type="button" class="btn btn-info active">Seattle</button></td>
+            <td>56°&nbsp&nbsp&nbsp&nbsp&nbsp<img src="/static/weather/assets/rainy.png" style="width:20px;"></td>
+          </tr>
+          <tr>
+            <td><img src="/static/weather/assets/umbrella.png" style="width:15px;"></td>
+            <td><a href="/weather/forecast/alert" class="btn btn-info active" role="button">Seoul</a></td>
+            <td>56°&nbsp&nbsp&nbsp&nbsp&nbsp<img src="/static/weather/assets/nightcloudy.png" style="width:20px;"></td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <div class="container" style="background-color:#99CCFF">
+      <div class="row" style="margin:10px">
+        <div class="col-12" align="center">
+          <a href="/weather/comparison/alert" class="btn btn-secondary active" role="button" aria-pressed="true">⟱</a>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-2">
+          <button type="button" class="btn btn-dark">F/C</button>
+        </div>
+        <div class="col-8">
+          <div class="dropdown" align="center">
+            <button type="button" class="btn btn-light dropdown-toggle" data-toggle="dropdown">
+              June 30, 2019
+            </button>
+          </div>
+        </div>
+        <div class="col-2">
+          <button type="button" class="btn btn-danger">X</button>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-12">
+          <div class="dropdown" align="center">
+            <button type="button" class="btn btn-light dropdown-toggle" data-toggle="dropdown" style="margin:10px">
+              12:00 PM
+            </button>
+          </div>
+        </div>
+      </div>
+      <div class="container">
+        <img src="/static/weather/assets/wheel.png" style="width:100%">
+      </div>
+      
+    </div>
+  </div>
 </body>
 </html>

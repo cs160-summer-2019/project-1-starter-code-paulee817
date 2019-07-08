@@ -10,10 +10,79 @@
 
 </head>
 <body>
-	<!-- your single-location forecast interface here -->
+	<!-- your comparison interface here -->
+  <div class="container" style="background-color:#7399CC">
+    <div class="row">
+      <form>
+        <div class="input-group input-group-lg" style="margin:10px">
+          <div class="input-group-prepend">
+            <span class="input-group-text" style="background-color:#707070">&#128269</span>
+          </div>
+          <input type="text" class="form-control" style="background-color:#FFFFFF; width:420px" placeholder="Search ">
+        </div>
+      </form>
+    </div>
+    <div align="center">
+      <h1>
+        Berkeley
+      </h1>
+    </div>
+    <div align="center">
+      <h1>77°</h1>
+      <img src="/static/weather/assets/sunnycloudy.png" style="width:25%;">
+    </div>
+    <div class="row">
+      <table class="table table-striped" style="margin:20px">
+        <tbody>
+          <tr>
+            <td>Precipitation</td>
+            <td>0%</td>
+          </tr>
+          <tr>
+            <td>Humidity</td>
+            <td>30%</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <div class="container" style="background-color:#99CCFF">
+      <div class="row" style="margin:10px">
+        <div class="col-12" align="center">
+          <button type="button" class="btn btn-secondary active" data-toggle="collapse" data-target="#demo">⟱</button>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-2">
+          <button type="button" class="btn btn-dark">F/C</button>
+        </div>
+        <div class="col-8">
+          <div class="dropdown" align="center">
+            <button type="button" class="btn btn-light dropdown-toggle" data-toggle="dropdown">
+              June 30, 2019
+            </button>
+          </div>
+        </div>
+        <div class="col-2">
+          <a href="/weather/comparison" class="btn btn-dark active" role="button" aria-pressed="true">⏎</a>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-12">
+          <div class="dropdown" align="center">
+            <button type="button" class="btn btn-light dropdown-toggle" data-toggle="dropdown" style="margin:10px">
+              12:00 PM
+            </button>
+          </div>
+        </div>
+      </div>
+      <div class="container">
+        <img src="/static/weather/assets/wheel.png" style="width:100%">
+      </div>
+      
+    </div>
+  </div>
 </body>
 </html>
-
 
 
 

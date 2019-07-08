@@ -10,11 +10,65 @@
 
 </head>
 <body>
-	<!-- your single-location forecast with alert interface here -->
+	<!-- your comparison interface here -->
+  <div class="container" style="background-color:#7399CC">
+    <div class="row">
+      <form>
+        <div class="input-group input-group-lg" style="margin:10px">
+          <div class="input-group-prepend">
+            <span class="input-group-text" style="background-color:#707070">&#128269</span>
+          </div>
+          <input type="text" class="form-control" style="background-color:#FFFFFF; width:420px" placeholder="Search ">
+        </div>
+      </form>
+    </div>
+    <div align="center">
+      <h1>
+        Seoul
+      </h1>
+    </div>
+    <div align="center">
+      <h1>77°</h1>
+      <img src="/static/weather/assets/nightcloudy.png" style="width:25%; margin-bottom:30px">
+    </div>
+    <div class="alert alert-warning" align="center" style="margin:20px">
+      <strong>Rain Alert @ 9AM</strong>
+    </div>
+    <div class="container" style="background-color:#99CCFF">
+      <div class="row" style="margin:10px">
+        <div class="col-12" align="center">
+          <button type="button" class="btn btn-secondary active" data-toggle="collapse" data-target="#demo">⟱</button>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-2">
+          <button type="button" class="btn btn-dark">F/C</button>
+        </div>
+        <div class="col-8">
+          <div class="dropdown" align="center">
+            <button type="button" class="btn btn-light dropdown-toggle" data-toggle="dropdown">
+              July 1, 2019
+            </button>
+          </div>
+        </div>
+        <div class="col-2">
+           <a href="/weather/comparison" class="btn btn-dark active" role="button" aria-pressed="true">⏎</a>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-12">
+          <div class="dropdown" align="center">
+            <button type="button" class="btn btn-light dropdown-toggle" data-toggle="dropdown" style="margin:10px">
+              4:00 AM
+            </button>
+          </div>
+        </div>
+      </div>
+      <div class="container">
+        <img src="/static/weather/assets/wheel.png" style="width:100%">
+      </div>
+      
+    </div>
+  </div>
 </body>
 </html>
-
-
-
-
-
